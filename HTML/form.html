@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="formbca.css">
+        <title>Tugas PAW Formulir 202103029</Form></title>
+        <style type="text/css">
+            label   {font-weight: bold}
+            legend  {font-style: italic}
+            fieldset {width: "200px"}
+            h1 {color:blue;
+            }
+            h2 {
+                color: blue;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <table>
+                    <tr>
+                        <p>
+                            <h1 align="center">Formulir Pendaftaran Beasiswa</h1>
+                            <h2 align="center">Universitas Jenderal Achmad Yani Yogyakarta</h2>
+                        </p>
+                    </tr>
+                    <tr>
+                        <p>
+                            <h3 align="left"> Data Pribadi</h3>
+                        </p>
+                    </tr>
+
+                    <tr>
+                        <td>Nama Lengkap</td>
+                        <td>:</td>
+                        <td><input type="text"size="100" name = "Nama Lengkap"></td>
+                    </tr>
+                    <tr>
+                        <td>NPM</td>
+                        <td>:</td>
+                        <td><input type="text"size="100" name = "Nama Lengkap"></td>
+                    </tr>
+
+                    <tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td> :</td>
+                        <td>
+                            <input type="radio" name="kelamin" value="L">Laki-laki
+                            <input type="radio" name="kelamin" value="P">Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tempat, Tanggal Lahir</td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="tempat">
+                            <input type="date" name="tanggal">
+                        </td>
+                    <tr>
+                        <td>Alamat</td>
+                        <td>:</td>
+                        <td><textarea rows="4" cols="95px"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Kota</td>
+                        <td>:</td>
+                        <td><input type="text" size="40" name="kota">&nbsp;&nbsp;Kode Pos :&nbsp;
+                            <input type="text" size="42" name="kode"></td>
+                    </tr>
+                    <tr>
+                        <td>No. Hp</td>
+                        <td>:</td>
+                        <td><input type="text" size="100px" name="no.hp"></td>
+                    </tr>
+                    <tr>
+                        <td>Status Tempat Tinggal</td>
+                        <td>:</td>
+                        <td><input type="checkbox" name="tempattinggal" value="Kos">Kos&nbsp;
+                            <input type="checkbox" name="tempattinggal" value="Sewa">Sewa&nbsp;
+                            <input type="checkbox" name="tempattinggal" value="saudara">Ikut Saudara&nbsp;
+                            <input type="checkbox" name="tempattinggal" value="ortu">Orang Tua&nbsp;
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Agama</td>
+                        <td>:</td>
+                        <td>
+                            <select size="1">
+                                <option value="">Pilih</option>
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katolik">Katolik</option>
+                                <option value="Buddha">Buddha</option>
+                                <option value="Hindu">Hindu</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                     <tr>
+                        <p>
+                            <h3 align="left"> Data Studi</h3>
+                        </p>
+                    </tr>
+                    <tr>
+                        <td>Tahun Masuk</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</td>
+                        <td><input type="text" size="100px" name="tahun"></td>
+                    </tr>
+                    <tr>
+                        <td>Program Studi</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</td>
+                        <td><input type="text" size="100px" name="prodi"></td>
+                    </tr>
+                    <tr>
+                        <td>Semester</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</td>
+                        <td>
+                            <select size="1">
+                                <option value="">Pilih</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>IPK Terakhir</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</td>
+                        <td><input type="text" size="100px" name="ipk"></td>
+                    </tr>
+                    <tr>
+                        <td>KTM/KTP</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</td>
+                        <td><input type="file" name="upload"></td>
+                    </tr>
+                    <tr></tr>
+                    <tr> 
+                        <td><input type="reset" value="Hapus"></td>
+                        <td><input type="submit" value="Submit"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
